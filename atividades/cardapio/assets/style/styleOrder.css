@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: DodgerBlue;
+}
+.myForm {
+    margin-top: 6rem;
+  display: flex;
+  background-color: beige;
+  border-radius: 3px;
+  padding: 1.8em;
+  font-family: "Roboto", sans-serif;
+  font-size: small;
+  width: 50%;
+  color: black;
+  font-weight: 900;
+  background-color: #f1f1f1;
+}
+
+.contact {
+  flex: 1;
+  order: 1;
+  margin-right: 2em;
+}
+.contact input {
+  width: 100%;
+}
+.contact input,
+.contact button {
+  padding: 1em;
+  margin-bottom: 1em;
+}
+.contact button {
+  background: DodgerBlue;
+  color: white;
+  border: 0;
+  cursor: pointer;
+}

@@ -1,0 +1,51 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: DodgerBlue;
+}
+
+.flex-container {
+  display: flex;
+  padding-top: 2rem;
+  
+  background-color: DodgerBlue;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.sucessOrder{
+  display: flex;
+  width: 250px;
+  padding-left: 5px;
+  font-size: x-small;
+ 
+}
+
+.numberOrder{
+  display: flex;
+  align-items: flex-start;
+  padding-left: 5px;
+  font-size: small;
+}
+
+.itensOrder{
+  padding-top: 10px;
+  display: flex;
+  align-items: flex-start;
+  padding-left: 5px;
+  font-size: small;
+ 
+}
